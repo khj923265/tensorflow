@@ -2,9 +2,6 @@ import tensorflow as tf
 import numpy as np
 import pandas as pd
 
-path = './'
-fileName = 'weight_storage.npz'
-
 data = pd.read_csv('../model/gpascore.csv')
 data = data.dropna()  # 빈값이 있는걸 날려줌
 
